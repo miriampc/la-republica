@@ -4,6 +4,7 @@
   color: #fff;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 
 }
 body{
@@ -79,17 +80,13 @@ h1{
 }
 section{
   width: 670px;
-  position: absolute;
-  /*top: 0;
-  left: 0;*/
+  float: left;
 }
 
 aside{
   width: 300px;
-  border: 1px solid #000;
-  position: absolute;
-  top: 0;
-  right: 0;
+  /*position: absolute;*/
+  float: right;
 }
 
 .noticias{
@@ -99,6 +96,7 @@ aside{
 }
 
 .parrafo{
+  padding: 20px;
   font-size: 20px;
 }
 
@@ -129,4 +127,35 @@ aside{
   width: 312px;
   height: 85px;
   background: #333340;
+}
+
+.notas{
+  margin-bottom: 14px;
+}
+.editorial{
+  position: absolute;
+}
+.editorial span{
+  color: #e00109;
+  font-size: 16px;
+  font-weight: bold;
+}
+.editorial p{
+  background-color: #e00109;
+  width: 300px;
+  height: 70px;
+  color: #ebebeb;
+  font-weight: bold;
+}
+
+.editorial .sprite{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.parrafo .azul{
+  width: 83px;
+  background: #1363a9;
+  float: left;
 }
