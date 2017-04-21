@@ -1,4 +1,5 @@
 @import url('../css/stylesheet.css');
+@import url('../fonts/style.css');
 *{
   font-family: sans-serif;
   color: #fff;
@@ -36,9 +37,20 @@ h1{
 }
 
 .social-media{
-
+  margin-left: 150px;
 }
-
+.social-media span{
+  padding: 10px;
+  background: #fff;
+  color: #e00109;
+  border-radius: 50%;
+}
+.contenedor .buscar{
+  margin-left: 300px;
+  padding: 7px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
 .menu{
   position: fixed;
   top: 0;
@@ -85,7 +97,7 @@ section{
 
 aside{
   width: 300px;
-  /*position: absolute;*/
+  height: 100%;
   float: right;
 }
 
@@ -98,6 +110,18 @@ aside{
 .parrafo{
   padding: 20px;
   font-size: 20px;
+  position: relative;
+}
+
+.iconos{
+  position: absolute;
+}
+.parrafo span{
+  background: #b3b3b3;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 100px;
 }
 
 .uno .parrafo{
@@ -111,18 +135,26 @@ aside{
   float: right;
 }
 
+.uno .iconos{
+  bottom: 14px;
+}
+
 .dos{
   float: left;
 }
+
 .dos .parrafo{
   width: 312px;
   height: 85px;
   background: #333340;
 }
 
+
+
 .tres{
   float: right;
 }
+
 .tres .parrafo{
   width: 312px;
   height: 85px;
@@ -157,7 +189,7 @@ aside{
 
 .float .azul{
   font-size: 14px;
-  width: 128px;
+  width: 147px;
   height: 152px;
   background: #1363a9;
   float: left;
@@ -165,8 +197,4 @@ aside{
 
 .float .sprite{
   float: right;
-}
-.anuncio{
-  margin-top: 10px;
-  width: 300px;
 }
