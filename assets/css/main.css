@@ -92,7 +92,7 @@ aside{
 .noticias{
   height: 250px;
   width: 650px;
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
 
 .parrafo{
@@ -130,10 +130,11 @@ aside{
 }
 
 .notas{
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
+
 .editorial{
-  position: absolute;
+  position: relative;
 }
 .editorial span{
   color: #e00109;
@@ -154,8 +155,18 @@ aside{
   right: 0;
 }
 
-.parrafo .azul{
-  width: 83px;
+.float .azul{
+  font-size: 14px;
+  width: 128px;
+  height: 152px;
   background: #1363a9;
   float: left;
+}
+
+.float .sprite{
+  float: right;
+}
+.anuncio{
+  margin-top: 10px;
+  width: 300px;
 }
